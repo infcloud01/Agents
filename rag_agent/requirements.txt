@@ -1,5 +1,0 @@
-pypdf
-langchain
-langchain-community
-langchain-oci
-langchain-chroma
