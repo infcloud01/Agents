@@ -32,8 +32,15 @@ Before running this bot, ensure you have the following:
 **1. Clone the repository**
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-directory>
+
+# 1. Clone the root repository
+git clone https://github.com/infcloud01/Agents.git
+
+# 2. Go into the cloned repository
+cd Agents
+
+# 3. Navigate to the specific project folder
+cd Slack_Agent_w_RAG_JIRA
 
 ```
 
@@ -114,5 +121,3 @@ The bot will trigger the `search_knowledge_base` tool, query the Chroma database
 The bot will recognize this as an issue, trigger the `create_support_ticket` tool, generate a Jira task, and return the Jira link to the user.
 
 ---
-
-Would you like me to go ahead and write that `.gitignore` file for you now so you can ensure your `.env` and PDF files stay safe?
