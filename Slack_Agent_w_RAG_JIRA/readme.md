@@ -1,4 +1,4 @@
-# Image Development RAG Slackbot
+# Slack, RAG, Jira Slackbot
 
 This project is an intelligent Slackbot designed to act as the manager of a team. It uses LangGraph and OpenAI to answer consumer questions by searching a local ChromaDB knowledge base (RAG). If a user reports a bug, requests a feature, or needs human intervention, the agent can automatically create a Jira support ticket.
 
