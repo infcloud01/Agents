@@ -1,0 +1,28 @@
+# Slack Integration
+slack_bolt
+python-dotenv
+
+# LangChain Core & OpenAI
+langchain
+langchain-core
+langchain-openai
+
+# Advanced RAG & Vector DB
+langchain-chroma
+chromadb
+tiktoken
+langchain-classic
+
+# Action Tools
+jira
+
+# Everthing and the kitchen sink
+slack_bolt
+jira
+langchain
+langchain-core
+langchain-openai
+langchain-chroma
+langgraph
+#pysqlite3-binary
+python-dotenv
