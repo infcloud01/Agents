@@ -1,0 +1,5 @@
+pywin32>=306
+python-dotenv>=1.0.0
+langchain-oci>=0.1.0
+langchain-core>=0.2.0
+rich>=13.0.0
