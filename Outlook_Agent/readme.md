@@ -78,7 +78,7 @@ If you generate a draft, you will enter a sub-menu to review the AI's work:
 
 ## 🔒 Security & Privacy
 
-This script was designed with enterprise security in mind:
+This agent was designed with enterprise security in mind:
 * It does **not** use undocumented APIs or scrape web interfaces.
 * It utilizes official Oracle GenAI SDKs to comply with standard corporate Data Loss Prevention (DLP) policies.
 * It strictly operates in a "Draft-Only" mode to prevent accidental hallucinated emails from being sent to colleagues.
