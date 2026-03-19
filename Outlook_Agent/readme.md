@@ -25,12 +25,9 @@ By utilizing Windows COM automation, this tool completely bypasses the need for 
 ## 🛠️ Setup & Installation
 
 **1. Clone the repository**
-```
-```text?code_stdout&code_event_index=2
-Files generated.
 
 ```bash
-git clone [https://github.com/yourusername/ai-terminal-inbox.git](https://github.com/yourusername/ai-terminal-inbox.git)
+git clone [https://github.com/infcloud01/Agents.git](https://github.com/yourusername/ai-terminal-inbox.git)
 cd ai-terminal-inbox
 ```
 
