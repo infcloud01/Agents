@@ -27,8 +27,8 @@ By utilizing Windows COM automation, this tool completely bypasses the need for 
 **1. Clone the repository**
 
 ```bash
-git clone [https://github.com/infcloud01/Agents.git](https://github.com/yourusername/ai-terminal-inbox.git)
-cd ai-terminal-inbox
+git clone https://github.com/infcloud01/Agents.git
+cd Agents/Outlook_Agent
 ```
 
 **2. Install Dependencies**
@@ -45,21 +45,21 @@ Create a `.env` file in the root directory of the project and add your specific 
 
 ```env
 # .env
-OCI_COMPARTMENT_ID=ocid1.compartment.oc1..YOUR_COMPARTMENT_OCID_HERE
-OCI_SERVICE_ENDPOINT=[https://inference.generativeai.us-chicago-1.oci.oraclecloud.com](https://inference.generativeai.us-chicago-1.oci.oraclecloud.com)
-OCI_MODEL_ID=meta.llama-3-70b-instruct 
+OCI_COMPARTMENT_ID="ocid1.compartment.oc1..YOUR_COMPARTMENT_OCID_HERE"
+OCI_SERVICE_ENDPOINT="https://inference.generativeai.us-chicago-1.oci.oraclecloud.com"
+OCI_MODEL_ID="cohere.command-r-08-2024"
 ```
 *⚠️ **IMPORTANT:** Never commit your `.env` file to version control. Ensure it is listed in your `.gitignore`.*
 
 **5. Customize your Signature**
-Open `terminal_inbox.py` and locate the `MY_SIGNATURE` variable at the top of the script. Update it with your personal details.
+Open `outlook_terminal.py` and locate the `MY_SIGNATURE` variable at the top of the script. Update it with your personal details.
 
 ## 🚀 Usage
 
 Ensure your desktop Outlook application is open and running in the background. Open your terminal and run:
 
 ```bash
-python terminal_inbox.py
+python outlook_terminal.py
 ```
 
 ### The Main Menu
